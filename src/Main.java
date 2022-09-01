@@ -55,6 +55,45 @@ public class Main {
             System.out.println("Возраст совершеннолетия еще не наступил, надо немного подождать!");
         }
 
+        //Задание 2.2
+        System.out.println("Задача 2.2");
+
+        int age4 = 25;
+
+        if (age4 >= 7 && age4 < 18) {
+            System.out.println("Ребенок учится в школе");
+        } else if (age > 18 && age4 < 24) {
+            System.out.println("Человек уже закончил школу и может отправляться в университет");
+        } else {
+            System.out.println("Человек окончил университет и ему пора искать работу");
+        }
+
+        //Задание 2.3
+        System.out.println("Задача 2.3");
+        int capacity = 102;
+        int seats = 60;
+        int standingPlaces = (capacity - seats);
+        int seatUsed = 28;
+        int standingPlacesUsed = 18;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
