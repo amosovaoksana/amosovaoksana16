@@ -84,8 +84,7 @@ public class Main {
         if (standingPlacesUsed < standingPlaces ) {
             System.out.println("Есть ещё" + (standingPlaces - seatUsed) + "Стоячих мест");
         }else {
-            System.out.println("Стоячих мест нет");
-        }
+            System.out.println("Стоячих мест нет");}
 
 
 
