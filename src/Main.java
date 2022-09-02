@@ -87,10 +87,6 @@ public class Main {
             System.out.println("Стоячих мест нет");
         }
 
-        //Задание 3.1
-          System.out.println("Задача 3.1");
-
-
 
 
 
