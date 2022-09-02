@@ -73,10 +73,22 @@ public class Main {
         int capacity = 102;
         int seats = 60;
         int standingPlaces = (capacity - seats);
-        int seatUsed = 28;
-        int standingPlacesUsed = 18;
 
+        int seatUsed = 37;
+        int standingPlacesUsed = 25;
+        if (seatUsed < seats ) {
+            System.out.println("Есть еще" + (seats - seatUsed) + "Сидячих мест");
+        }else{
+            System.out.println("Сидячих мест нет");
+        }
+        if (standingPlacesUsed < standingPlaces ) {
+            System.out.println("Есть ещё" + (standingPlaces - seatUsed) + "Стоячих мест");
+        }else {
+            System.out.println("Стоячих мест нет");
+        }
 
+        //Задание 3.1
+          System.out.println("Задача 3.1");
 
 
 
